@@ -1,7 +1,7 @@
 <script lang="ts">
   import { _, locale } from 'svelte-i18n';
   import { changeLanguage, SUPPORTED, LANG_LABELS, type Lang } from '$lib/i18n';
-  import { APP_URL, DOCS_URL, GITHUB_URL, SITE_URL } from '$lib/config';
+  import { APP_URL, DEMO_URL, DOCS_URL, GITHUB_URL, SITE_URL } from '$lib/config';
   import Footer from '$lib/components/Footer.svelte';
   import Seo from '$lib/components/Seo.svelte';
 
@@ -94,6 +94,7 @@
   <p>{$_('landing.hero_sub')}</p>
   <div class="cta">
     <a class="btn primary" href="{APP_URL}/login">{$_('landing.cta_start')}</a>
+    <a class="btn ghost" href={DEMO_URL}>{$_('landing.cta_demo')}</a>
     <a class="btn ghost" href={DOCS_URL}>{$_('landing.cta_docs')}</a>
   </div>
 </section>
@@ -177,7 +178,10 @@
 <section class="cta-final">
   <h2>{$_('landing.cta_final_title')}</h2>
   <p>{$_('landing.cta_final_text')}</p>
-  <a class="btn primary" href="{APP_URL}/login">{$_('landing.cta_start')}</a>
+  <div class="cta">
+    <a class="btn primary" href="{APP_URL}/login">{$_('landing.cta_start')}</a>
+    <a class="btn ghost" href={DEMO_URL}>{$_('landing.cta_demo')}</a>
+  </div>
   <p class="disclaimer">{$_('landing.disclaimer')}</p>
 </section>
 </main>
