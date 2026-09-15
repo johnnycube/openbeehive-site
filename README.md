@@ -36,14 +36,15 @@ src/routes/(legal)/about            about
 src/routes/(legal)/imprint          imprint
 src/routes/(legal)/privacy          privacy
 src/lib/components/Footer.svelte    shared footer
-src/lib/i18n/                       de + en translations (svelte-i18n)
+src/lib/i18n/                       en, de, fr, es, it translations (svelte-i18n)
 src/lib/config.ts                   APP_URL (link target for the app domain)
 ```
 
 ## i18n
 
-German and English live in `src/lib/i18n/locales/`. The locale files are shared
-in shape with the app; keys are English, `de.json` holds the German values.
+Five languages (en, de, fr, es, it) live in `src/lib/i18n/locales/`. The files
+hold only the strings this site uses and are not shared with the app. Keys are
+English; `en.json` is the fallback.
 
 ## License
 

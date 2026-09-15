@@ -23,7 +23,7 @@
       <a href="{APP_URL}/login">{$_('nav.dashboard')}</a>
     </nav>
   </div>
-  <div class="legal">© {year} {$_('app.name')} · {$_('footer.rights')}</div>
+  <div class="legal">© {year} {$_('app.name')} · {$_('footer.license')}</div>
 </footer>
 
 <style>

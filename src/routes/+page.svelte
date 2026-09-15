@@ -41,12 +41,6 @@
     { t: 'landing.feature_team_title', d: 'landing.feature_team_text' },
     { t: 'landing.feature_selfhost_title', d: 'landing.feature_selfhost_text' }
   ];
-
-  const showcasePoints = [
-    'landing.showcase_point_offline',
-    'landing.showcase_point_sync',
-    'landing.showcase_point_qr'
-  ];
 </script>
 
 <Seo
@@ -104,11 +98,6 @@
   <div class="showcase-copy">
     <h2>{$_('landing.showcase_title')}</h2>
     <p>{$_('landing.showcase_text')}</p>
-    <ul class="checklist">
-      {#each showcasePoints as p}
-        <li><span class="check">✓</span>{$_(p)}</li>
-      {/each}
-    </ul>
   </div>
 
   <div class="phone" aria-hidden="true">
@@ -120,12 +109,12 @@
       <div class="m-stats">
         <div class="m-stat"><b>3</b><small>{$_('nav.apiaries')}</small></div>
         <div class="m-stat"><b>24</b><small>{$_('nav.hives')}</small></div>
-        <div class="m-stat"><b>21</b><small>{$_('app.name') ? 'Queens' : ''}</small></div>
+        <div class="m-stat"><b>21</b><small>{$_('landing.mock_queens')}</small></div>
       </div>
       <div class="m-card">
-        <div class="m-row"><span class="dot moss"></span> Hive 7 · {$_('insp.queen_seen')}</div>
-        <div class="m-row"><span class="dot honey"></span> Hive 12 · {$_('insp.queen_cells')}</div>
-        <div class="m-row"><span class="dot moss"></span> Orchard · {$_('harvest.title')} 14 kg</div>
+        <div class="m-row"><span class="dot moss"></span> Hive 7 · {$_('landing.mock_queen_seen')}</div>
+        <div class="m-row"><span class="dot honey"></span> Hive 12 · {$_('landing.mock_queen_cells')}</div>
+        <div class="m-row"><span class="dot moss"></span> Orchard · {$_('landing.mock_honey')} 14 kg</div>
       </div>
       <div class="m-tabbar">
         <span class="on">⬡</span><span>▤</span><span>▣</span><span>☰</span><span>•</span>
@@ -225,10 +214,6 @@
     max-width:1080px; margin:0 auto; padding:40px 6vw 30px; }
   .showcase-copy h2 { font-size:clamp(1.6rem,3vw,2.2rem); }
   .showcase-copy p { color:var(--ink-soft); line-height:1.6; margin:12px 0 18px; max-width:46ch; }
-  .checklist { list-style:none; display:flex; flex-direction:column; gap:10px; }
-  .checklist li { display:flex; align-items:center; gap:10px; font-weight:600; }
-  .check { display:grid; place-items:center; width:22px; height:22px; border-radius:50%;
-    background:rgba(92,107,74,.16); color:var(--moss); font-size:.8rem; font-weight:800; }
   .phone { display:flex; justify-content:center; }
   .phone-screen { width:248px; background:var(--cream2); border:1px solid var(--line); border-radius:28px;
     padding:16px 14px; box-shadow:0 24px 60px rgba(44,35,22,.16); }

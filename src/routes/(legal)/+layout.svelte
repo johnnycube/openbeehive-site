@@ -37,6 +37,4 @@
   .content :global(a) { color: var(--honey-d); }
   .content :global(ul) { margin: 0 0 12px 20px; line-height: 1.7; }
   .content :global(.lead) { color: var(--ink-soft); font-size: 1.05rem; margin-bottom: 20px; }
-  .content :global(.note) { background: var(--cream2); border: 1px solid var(--line); border-radius: 12px;
-    padding: 12px 14px; color: var(--ink-soft); font-size: .9rem; margin-top: 18px; }
 </style>

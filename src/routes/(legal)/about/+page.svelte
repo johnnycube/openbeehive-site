@@ -45,7 +45,7 @@
 
 <h2>Disclaimer</h2>
 <p>
-  Openbeehive is early software (v0.1.0). It is provided “as is”, without warranty
+  Openbeehive is early software. It is provided “as is”, without warranty
   of any kind, to the extent permitted by law. It is a record-keeping tool and is
   not a substitute for professional veterinary advice or for your obligations
   under local beekeeping, animal-health and food-safety law. Always keep your own
