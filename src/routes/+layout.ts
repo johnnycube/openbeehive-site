@@ -1,6 +1,5 @@
-// Fully static marketing site: prerender every page to HTML, no SSR at runtime.
+// Fully static marketing site: every page is prerendered to HTML at build time.
 export const prerender = true;
-export const ssr = true;
 export const trailingSlash = 'never';
 
 import { waitLocale } from 'svelte-i18n';

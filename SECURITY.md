@@ -1,33 +1,18 @@
 # Security Policy
 
-## Supported versions
+This repository is the static marketing site at openbeehive.org. It has no
+backend, no accounts and stores no user data. The application has its own
+policy in the `openbeehive-app` repository.
 
-Openbeehive is in early development. Security fixes are provided for the latest
-released version only.
+## What to report
 
-| Version | Supported |
-| ------- | --------- |
-| 0.1.x   | ✅        |
-| < 0.1   | ❌        |
+- a secret or token exposed in this repository or its workflows,
+- XSS or content injection on any page of the site,
+- a dependency or build-step issue that affects the published pages.
 
-## Reporting a vulnerability
+## How to report
 
-**Please do not report security vulnerabilities through public GitHub issues.**
-
-Instead, use one of these private channels:
-
-- GitHub's [private vulnerability reporting](https://github.com/johnnycube/openbeehive-app/security/advisories/new)
-  (preferred), or
-- email **security@openbeehive.org**.
-
-Please include:
-
-- a description of the issue and its impact,
-- steps to reproduce (a proof of concept if possible),
-- affected version(s) and deployment profile (`cloud` or `selfhost`).
-
-We aim to acknowledge reports within **72 hours** and to provide a remediation
-timeline after triage. We will keep you informed throughout the process and
-credit you in the advisory unless you prefer to remain anonymous.
-
-Thank you for helping keep Openbeehive and its users safe.
+Please do not open a public issue. Use GitHub's
+[private vulnerability reporting](https://github.com/johnnycube/openbeehive-app/security/advisories/new)
+or email **security@openbeehive.org**. Include a description and, if you can,
+steps to reproduce.

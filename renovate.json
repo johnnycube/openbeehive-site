@@ -14,18 +14,6 @@
       "matchManagers": ["npm"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "npm (non-major)"
-    },
-    {
-      "description": "Group all non-major Go module updates together",
-      "matchManagers": ["gomod"],
-      "matchUpdateTypes": ["minor", "patch"],
-      "groupName": "go modules (non-major)"
-    },
-    {
-      "description": "Group Docker base-image digest/patch updates",
-      "matchManagers": ["dockerfile", "docker-compose"],
-      "matchUpdateTypes": ["digest", "pin", "patch"],
-      "groupName": "docker base images"
     }
   ],
   "lockFileMaintenance": {
