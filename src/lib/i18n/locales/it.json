@@ -63,6 +63,8 @@
     "feature_team_title": "Condividi con altri",
     "feature_team_text": "Invita altri apicoltori in uno spazio condiviso in cui tutti vedono gli stessi apiari — comodo per associazioni e soci.",
     "feature_selfhost_title": "I tuoi dati, la tua scelta",
-    "feature_selfhost_text": "Usa la versione ospitata o ospita un singolo binario — Postgres + MinIO oppure semplicemente SQLite + file."
+    "feature_selfhost_text": "Usa la versione ospitata o ospita un singolo binario — Postgres + MinIO oppure semplicemente SQLite + file.",
+    "feature_api_title": "Script e sensori",
+    "feature_api_text": "Un'API Connect-RPC aperta con chiavi per dispositivo: una bilancia per arnie invia le letture, i tuoi strumenti leggono i tuoi dati."
   }
 }

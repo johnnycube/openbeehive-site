@@ -63,6 +63,8 @@
     "feature_team_title": "Mit anderen teilen",
     "feature_team_text": "Lade andere Imker:innen in einen gemeinsamen Bereich ein, in dem alle dieselben Standorte sehen – praktisch für Vereine und Partner.",
     "feature_selfhost_title": "Deine Daten, deine Wahl",
-    "feature_selfhost_text": "Die gehostete Version nutzen oder mit einem Binary selbst hosten – Postgres + MinIO oder einfach SQLite + Dateien."
+    "feature_selfhost_text": "Die gehostete Version nutzen oder mit einem Binary selbst hosten – Postgres + MinIO oder einfach SQLite + Dateien.",
+    "feature_api_title": "Skripte und Sensoren",
+    "feature_api_text": "Offene Connect-RPC-API mit Schlüsseln pro Gerät: Stockwaagen melden Messwerte, eigene Tools lesen deine Daten."
   }
 }

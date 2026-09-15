@@ -63,6 +63,8 @@
     "feature_team_title": "Share with others",
     "feature_team_text": "Invite fellow beekeepers into a shared workspace where everyone sees the same apiaries — handy for clubs and partners.",
     "feature_selfhost_title": "Your data, your choice",
-    "feature_selfhost_text": "Use the hosted version or self-host a single binary — Postgres + MinIO or just SQLite + files."
+    "feature_selfhost_text": "Use the hosted version or self-host a single binary — Postgres + MinIO or just SQLite + files.",
+    "feature_api_title": "Scripts and sensors",
+    "feature_api_text": "An open Connect-RPC API with per-device keys: let a hive scale post readings, or pull your records into your own tools."
   }
 }

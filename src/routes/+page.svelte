@@ -39,7 +39,8 @@
     { t: 'landing.feature_breeding_title', d: 'landing.feature_breeding_text' },
     { t: 'landing.feature_inventory_title', d: 'landing.feature_inventory_text' },
     { t: 'landing.feature_team_title', d: 'landing.feature_team_text' },
-    { t: 'landing.feature_selfhost_title', d: 'landing.feature_selfhost_text' }
+    { t: 'landing.feature_selfhost_title', d: 'landing.feature_selfhost_text' },
+    { t: 'landing.feature_api_title', d: 'landing.feature_api_text' }
   ];
 </script>
 

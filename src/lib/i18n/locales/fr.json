@@ -63,6 +63,8 @@
     "feature_team_title": "Partagez avec d'autres",
     "feature_team_text": "Invitez d'autres apiculteurs dans un espace partagé où tout le monde voit les mêmes ruchers — pratique pour les clubs et les associés.",
     "feature_selfhost_title": "Vos données, votre choix",
-    "feature_selfhost_text": "Utilisez la version hébergée ou auto-hébergez un binaire unique — Postgres + MinIO ou simplement SQLite + fichiers."
+    "feature_selfhost_text": "Utilisez la version hébergée ou auto-hébergez un binaire unique — Postgres + MinIO ou simplement SQLite + fichiers.",
+    "feature_api_title": "Scripts et capteurs",
+    "feature_api_text": "Une API Connect-RPC ouverte avec des clés par appareil : une balance de ruche envoie ses mesures, vos outils lisent vos données."
   }
 }

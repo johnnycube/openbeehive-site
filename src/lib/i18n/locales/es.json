@@ -63,6 +63,8 @@
     "feature_team_title": "Comparte con otros",
     "feature_team_text": "Invita a otros apicultores a un espacio compartido en el que todos ven los mismos colmenares — práctico para clubes y socios.",
     "feature_selfhost_title": "Tus datos, tu elección",
-    "feature_selfhost_text": "Usa la versión alojada o autoaloja un único binario — Postgres + MinIO o simplemente SQLite + archivos."
+    "feature_selfhost_text": "Usa la versión alojada o autoaloja un único binario — Postgres + MinIO o simplemente SQLite + archivos.",
+    "feature_api_title": "Scripts y sensores",
+    "feature_api_text": "Una API Connect-RPC abierta con claves por dispositivo: una báscula de colmena envía lecturas y tus herramientas leen tus datos."
   }
 }
